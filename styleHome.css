@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap');
+body{
+    background-image: url(/immagini/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+.myTitle {
+    margin-top: 120px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.myButton {
+    background-color: #ac854794;
+    border-radius: 45px;
+    color: #ffffff;
+    width: auto; 
+    height: 50px;
+}
+
+.styleOutButton{
+    background-color: #ac854794;
+    border-radius: 45px;
+    color: #ffffff;
+    width: auto; 
+    height: 50px;
+}
+
+.textButton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.marginTop4{
+    margin-top: 1em;
+}
+
+.marginTop6{
+    margin-top: 9em;
+}
+
+.testo{
+    font-family: 'PT Sans';
+    /* font-style: ; */
+    font-weight: 900;
+}
+
+.marginTopLine{
+    margin-top: 60px;
+}
+
+.marginTopFromTitle{
+    margin-top: 150px;
+}
+
+.testoBottone{
+    
+}
