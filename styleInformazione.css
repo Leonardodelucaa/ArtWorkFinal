@@ -1,10 +1,66 @@
-body{
-    background-color:#ac854794;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+body {
+  background-color: rgba(174, 134, 71, 0.58);
 }
 
 .myTitle {
-    margin-top: 30px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 35px;
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.immagineOpacizata {
+  border-radius: 0px 0px 35px 35px;
+}
+
+.testo {
+  font-family: "PT Sans";
+  /* font-style: ; */
+  font-weight: 900;
+}
+
+.testo-sopra-immagine {
+  position: absolute;
+  top: 50%; /* Regola la posizione verticale del testo */
+  left: 50%; /* Regola la posizione orizzontale del testo */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Centra il testo in base alla larghezza e all'altezza del suo contenitore */
+  padding: 10px; /* Spaziatura interna per il testo */
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.testoInformazioni {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.testoInformazioniPiccolo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.testoSottoTitolo {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.immagineOpacizata1 {
+  opacity: 0.4;
 }
